@@ -1,25 +1,28 @@
-/*back 182c61 color ecf0f1*/
-*{
+*{/* código padrão*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header h1,section h2{/*alterar as fontes padrões dosa navegadores */
+    font-family: "Roboto Slab", serif;
+}
+
+header{ /*escolher o fundo do meu cabeçalho e cor do texto em meu cabeçalho */
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
 }
 
 header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 24px;
+    display: inline; /* põe itens do meenu lado a lado*/
+    margin-left: 16px; 
+    font-size: 18px;/*alterar o tamanho dá fonte*/
 }
 
 header nav li a{
     color: #ecf0f1;
-    text-decoration: none;
+    text-decoration: none; /*remover a linha que fica abaixo e tbm dar opções de decorar texto*/
 
 }
 
@@ -29,9 +32,34 @@ header nav li a{
     
 }
 
-header .container{
+header .container,section .container{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; /*alinhamento de de itens*/
+    justify-content: space-between;/*espaçamento em lados opostos com um espaço de laterais*/
+}
 
+.marcas img{
+    height: 24px;
+}
+.marcas li{
+    display: inline;
+    margin-left: 50px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+    color: #182c61;
+}
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+.lojafront{
+    margin-right: 32px;
 }
