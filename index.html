@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -17,10 +19,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#sobre">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">fale conosco</a>
+                        <a href="#contato">fale conosco</a>
                     </li>
                 </ul>
             </nav>
@@ -31,8 +33,12 @@
             <img class="lojafront" src="./imagens/loja.jpg" alt="fachada da loja game shop">
             <div>
                 <h2>sobre a loja</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quaerat dolore culpa, repellat, ea explicabo perspiciatis tenetur aliquam error assumenda deserunt numquam veritatis provident beatae? Deserunt temporibus inventore ipsum ratione?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis aliquam saepe obcaecati nesciunt? Inventore hic quaerat minus ducimus, illo maxime nobis eligendi modi omnis, consectetur id. Sit illo et minus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quaerat dolore culpa, repellat, ea
+                    explicabo perspiciatis tenetur aliquam error assumenda deserunt numquam veritatis provident beatae?
+                    Deserunt temporibus inventore ipsum ratione?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis aliquam saepe obcaecati
+                    nesciunt? Inventore hic quaerat minus ducimus, illo maxime nobis eligendi modi omnis, consectetur
+                    id. Sit illo et minus?</p>
                 <ul class="marcas">
                     <li><img src="./imagens/nintendo.png" alt=" logo nintendo"></li>
                     <li><img src="./imagens/xbox.png" alt="xbox logo"></li>
@@ -41,5 +47,53 @@
             </div>
         </div>
     </section>
+    <section id="contato">
+        <div class="container">
+            <h2>contato</h2>
+            <div class="mcontatos">
+                <form>
+                    <h3>fale conosco</h3>
+                    <input type="text" placeholder="digite seu nome" required><!--opção de obrigatoriedade de resposta-->
+                    <input type="email" placeholder="digite seu email" required>
+                    <input type="tel" placeholder="digite seu telefone(opcional)">
+                    <textarea placeholder="escreva sua mensagem" required></textarea>
+                    <button type="submit">enviar</button>
+                </form>
+                <div>
+                    <h3>nos acompanhe</h3>
+                    <ul class="redes">
+                        <li>
+                            <a href="#" title="siga-nos no facebook">
+                                <img src="./imagens/facebook.png" alt="logo facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="siga-nos no instagram">
+                                <img src="./imagens/instagram.png" alt="logo instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="veja nosso canal do youtube">
+                                <img src="./imagens/youtube.png" alt="youtube logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>venha até nós</h3>
+                    <p>
+                        javascriputeiro n° 777-amazonas
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game shop - todos os direitos reservados 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

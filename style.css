@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header h1,section h2{/*alterar as fontes padrões dosa navegadores */
+header h1,section h2,form button{/*alterar as fontes padrões dosa navegadores */
     font-family: "Roboto Slab", serif;
 }
 
@@ -62,4 +62,50 @@ section p{
 }
 .lojafront{
     margin-right: 32px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+#contato .container{
+    display: block;/*deixa as seções uma abaixo da outro como um bloco*/
+}
+.redes img{ /*controlar o tamanho das imagens*/
+    height: 24px;
+}
+.redes li{
+display: inline;
+margin-right: 8px ;
+}
+.redes li a{
+    text-decoration: none;
+}
+.mcontatos{
+    display: flex;
+    justify-content: space-between;
+} 
+form input, form textarea,form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px; /*aumentar o espaçamento interno*/
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #fff;
+    border: none;/*não ter bordas*/
+    cursor: pointer;
+}
+form button:hover{/*função hover serve para usar para mudanças quando o mouse for passado por cima de algum objeto*/
+    background-color: #5c80e4;/*mudando cor do botão*/
+}
+input:focus, textarea:focus{/*focus é o modo de acessar as caixas criadas fazendo alterações nelas*/
+    outline-color: #182c61;
+}
+footer{
+    background-color: #182c61;
+    color: #fff;
+    padding: 16px 0;
 }
